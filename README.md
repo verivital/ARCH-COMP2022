@@ -4,6 +4,7 @@ ARCH-COMP AINNCS Category 2022 Model Files
 Competition: https://cps-vo.org/group/ARCH/FriendlyCompetition
 
 Prior year reports:
+- 2021: https://easychair.org/publications/paper/Jq4h
 - 2020: https://easychair.org/publications/paper/Jvwg
 - 2019: https://easychair.org/publications/paper/BFKs
 
@@ -27,3 +28,9 @@ Repeatability archives: https://gitlab.com/goranf/ARCH-COMP/
 - Double Pendulum
 
 - Airplane
+
+- Aircraft
+  - Attitude Control 
+  - QUAD
+  
+- Docking 
