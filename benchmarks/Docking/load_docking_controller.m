@@ -28,7 +28,7 @@ function controller = load_docking_controller(onnxfile)
         L1 = LayerS(w1,b1,'tansig');
         L2 = LayerS(w2,b2,'tansig');
         L3 = LayerS(w3,b3,'purelin');
-        Lpost = LayerS(post,zeros(4,1),'purelin');
+        Lpost = LayerS(post,zeros(4,1),'tansig');
         Layers = [Lpre,L1,L2,L3,Lpost];
         controller = FFNNS(Layers);
     else
